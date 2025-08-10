@@ -15,7 +15,6 @@ const eslintConfig = [
     extends: ["next", "prettier"],
     ignorePatterns: ["node_modules/", ".next/", "public/"],
     rules: {
-      indent: ["error", 2],
       quotes: ["error", "double"],
       semi: ["error", "always"],
     },
